@@ -59,7 +59,7 @@ class SymGrp:
 
                         if    population < 0:
                               raise    ValueError("\n Invalid input: Population size must be a positive integer. \n")
-                        elif  sample < 0 or sample > population:
+                        elif  sample < 0  or  sample > population:
                               raise    ValueError(f"\n Invalid input: Sample size should be inbetween 0 and {population}. \n")
                         else:               # Initializes necessary attributes and data structures
                               self.samp  =  sample
@@ -115,7 +115,7 @@ class SymGrp:
                  left_lim  =  last_key + 1 + quantify_zeros * i
                  right_lim =  last_key + 1 + quantify_zeros * (i + 1)
 
-                 for  j  in   range(left_lim , right_lim):
+                 for  j   in  range(left_lim , right_lim):
                       self.matrx[j] = self.matrx[i + 1][ : ]
 
                  self.fill_hole(left_lim , right_lim , item)               # Fills empty positions
@@ -152,13 +152,12 @@ class SymGrp:
                               self.matrx[i][j]  = item              # Replaces the hole with 'item'
                               idx = j              # Updates 'idx' to reflect current column index
                               break
-                      j  += 1   # Increments column index so items will appear in unique positions
+                      j += 1    # Increments column index so items will appear in unique positions
 
             return    self.matrx
 
 def   main(   ):
-      SG        =     SymGrp(   )
-      spacing   = {   0 :       ':  ' ,                              # Define 'spacing' dictionary
+      spacing  =  {   0 :       ':  ' ,                              # Define 'spacing' dictionary
                       1 :      ' :  ' ,
                       2 :     '  :  ' ,
                       3 :    '   :  ' ,
@@ -166,7 +165,7 @@ def   main(   ):
                       5 :  '     :  ' ,
                       6 : '      :  ' ,
                       }
-      replace   = { '[0]' :   '\033[30m[0]\033[0m' ,                 # Define 'replace' dictionary
+      replace  =  { '[0]' :   '\033[30m[0]\033[0m' ,                 # Define 'replace' dictionary
                     '[1]' :   '\033[31m[1]\033[0m' ,
                     '[2]' :   '\033[32m[2]\033[0m' ,
                     '[3]' :   '\033[33m[3]\033[0m' ,
@@ -178,8 +177,9 @@ def   main(   ):
                     '[9]' : '\033[1;30m[9]\033[0m' ,
                     }
 
+      SG       =  SymGrp(   )
       SG.form_foundation(   )
-      for   _  in   range(SG.samp - 1):
+      for   _  in  range(SG.samp - 1):
             SG.extension(   )                                     # Performs row by row extensions
 
       gap  =  len(str(len(SG.matrx.keys(   )))) - len(str(SG.size)) - len(str(SG.samp))
@@ -232,7 +232,7 @@ def   main(   ):
                                    msg  =  'permutation group'
 
                               try :     # Prompts user to force quit or proceed to another section
-                                   opt =    input(f"\n View more entries from interval {i * 1000 + 1} to {(i + 1) * 1000}?"
+                                   opt  =   input(f"\n View more entries from interval {i * 1000 + 1} to {(i + 1) * 1000}?"
                                                   f"\n Enter {Bld} 1 {rst} for {bld}MORE{rst}  or  {Bld} 0 {rst} to"
                                                    f" {bld}QUIT{rst}.  {bld}Option{rst}: ")
 
@@ -252,4 +252,4 @@ def   main(   ):
                                                  print( E )
 
 if __name__ == '__main__':
-      main(   )
+     main(   )
