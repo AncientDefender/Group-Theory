@@ -245,8 +245,8 @@ def   main(   ):
                                               )
                                         return      # Gives feedback when program prematurely ends
                                    else:
-                                        raise    ValueError(f"\n Invalid input: Type in {Bld} 1 {rst}, {Bld} 0 {rst},"
-                                                            f" {Bld} Yes {rst}, or {Bld} No {rst}.  ")
+                                        raise     ValueError(f"\n Invalid input: Type in {Bld} 1 {rst}, {Bld} 0 {rst},"
+                                                             f" {Bld} Yes {rst}, or {Bld} No {rst}.  ")
 
                               except    ValueError  as  E:
                                                  print( E )
