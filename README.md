@@ -41,7 +41,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 ### Python Scripts (`symmetric_groups-retrospective.py`, `symmetric_groups-ghost_legs.py`, `combine_colors.py`):
 
 - To use the `symmetric_groups-retrospective` and `symmetric_groups-ghost_legs` scripts, ensure you have Python installed (version 3.x).
-- Run the script using: `python symmetric_groups-retrospective.py`.
+- Run the script using: `python symmetric_groups-retrospective.py` or `python symmetric_groups-ghost_legs.py`.
 - To use `combine_colors.py`, import the module into your script to enable advanced color and character formatting for terminal text output.
 - Please note that the standalone `combine_colors.py` download only includes example usage to demonstrate its functionality.
 
