@@ -12,22 +12,22 @@ Welcome to the Group Theory repository! This project delves into the various pro
    
 ## Files Description:
 
-### permutation_group_deg_*.txt:
+### `permutation_group_deg_*.txt`:
 
 - These files contain data pertaining to permutation groups of different degrees.
 - Each file contains group elements represented as matrices, illustrating the transformations and symmetries within permutation groups.
 
-### symmetric_groups-retrospective.py:
+### `symmetric_groups-retrospective.py`:
 
 - This Python file sets the foundation for retrospective analyses of symmetry groups.
 - The script includes functions and methods for constructing symmetric groups over the set {1,2,...,n}.
 
-### symmetric_groups-ghost_legs.py:
+### `symmetric_groups-ghost_legs.py`:
 
 - This Python file demonstrates the Amidakuji technique on the construction of unique arrangements from finite elements.
 - The script includes functions and methods for constructing symmetric groups over the set {1,2,...,n}.
 
-### combine_colors.py:
+### `combine_colors.py`:
 - This custom Python module enhances the management and efficiency of combining ANSI color codes for terminal text formatting.
 - It enables the dynamic creation of diverse color combinations, improving the visual aesthetics of your terminal output.
 
@@ -50,17 +50,17 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ## Features
 
-### symmetric_groups-retrospective.py
+### `symmetric_groups-retrospective.py`
 
 - **Dynamic Matrix Generation**: Generates new matrices by inserting elements into every possible position in the rows.
 
-### symmetric_groups-ghost_legs.py
+### `symmetric_groups-ghost_legs.py`
 
 - **Dynamic Matrix Construction**: Builds a matrix to represent permutations using the Amidakuji technique.
 - **Formatted Output**: Results are displayed with corresponding symmetric group notation and color-coded formatting.
 - **Customized Output**: Permutations are displayed in batches of 1000 with an option to view additional outputs or exit after each batch.
 
-### combine_colors.py
+### `combine_colors.py`
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
 - **Timeout**:  Uses multithreading with a timeout to ensure prompt responses and minimize cases when input is delayed.
