@@ -38,26 +38,29 @@ Welcome to the Group Theory repository! This project delves into the various pro
 - These files can be used for studying the structure and properties of permutation groups of any degree.
 - They can be imported into computational tools for further analysis.
 
-### Python Scripts (`symmetric_groups-retrospective.py`, `symmetric_groups-ghost_legs.py`, `combine_colors.py`):
+### Python Scripts (`symmetric_groups-retrospective.py`, `symmetric_groups-ghost_legs.py`):
 
 - To use the `symmetric_groups-retrospective` and `symmetric_groups-ghost_legs` scripts, ensure you have Python installed (version 3.x).
 - Run the script using: `python symmetric_groups-retrospective.py` or `python symmetric_groups-ghost_legs.py`.
+
+### Python Module (`combine_colors.py`):
+
 - To use `combine_colors.py`, import the module into your script to enable advanced color and character formatting for terminal text output.
-- Please note that the standalone `combine_colors.py` download only includes example usage to demonstrate its functionality.
+- The standalone `combine_colors.py` download includes example usage to demonstrate its functionality.
 
 ## Features
 
-### symmetric_groups-retrospective
+### symmetric_groups-retrospective.py
 
 - **Dynamic Matrix Generation**: Generates new matrices by inserting elements into every possible position in the rows.
 
-### symmetric_groups-ghost_legs
+### symmetric_groups-ghost_legs.py
 
 - **Dynamic Matrix Construction**: Builds a matrix to represent permutations using the Amidakuji technique.
 - **Formatted Output**: Results are displayed with corresponding symmetric group notation and color-coded formatting.
 - **Customized Output**: Permutations are displayed in batches of 1000 with an option to view additional outputs or exit after each batch.
 
-### combine_colors
+### combine_colors.py
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
 - **Timeout**:  Uses multithreading with a timeout to ensure prompt responses and minimize cases when input is delayed.
