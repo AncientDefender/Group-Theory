@@ -12,7 +12,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
    
 ## Files Description:
 
-### permutation_group_deg_7.txt, permutation_group_deg_8.txt, permutation_group_deg_9.txt, permutation_group_deg_10.txt:
+### permutation_group_deg_*.txt:
 
 - These files contain data pertaining to permutation groups of different degrees.
 - Each file contains group elements represented as matrices, illustrating the specific transformations
@@ -41,7 +41,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### Python Scripts (`symmetric_groups-retrospective.py`, `symmetric_groups-ghost_legs.py`, `combine_colors.py`):
 
-- To use the `symmetric_groups-retrospective.py` and `symmetric_groups-ghost_legs.py` scripts, ensure you have Python installed (version 3.x).
+- To use the `symmetric_groups-retrospective` and `symmetric_groups-ghost_legs` scripts, ensure you have Python installed (version 3.x).
 - Run the script using: `python symmetric_groups-retrospective.py`.
 - To use `combine_colors.py`, import the module into your script to enable advanced color and character formatting for terminal text output.
 - Please note that the standalone `combine_colors.py` download only includes example usage to demonstrate its functionality.
@@ -54,14 +54,14 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### symmetric_groups-ghost_legs
 
-- **Dynamic Matrix Construction**: Builds and extends a matrix to represent permutations using the Amidakuji technique.
+- **Dynamic Matrix Construction**: Builds a matrix to represent permutations using the Amidakuji technique.
 - **Formatted Output**: Results are displayed with corresponding symmetric group notation and color-coded formatting.
 - **Customized Output**: Permutations are displayed in batches of 1000 with an option to view additional outputs or exit after each batch.
 
 ### combine_colors
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
-- **Timeout**:  Uses multithreading with a timeout to handle user input by promoting prompt responds and  minimizing cases when input is delayed.
+- **Timeout**:  Uses multithreading with a timeout to ensure prompt responds and minimize cases when input is delayed.
 
 ## Contributing
 
@@ -71,8 +71,7 @@ Contributions and improvements to the data processing methods are welcome throug
 
 ### Purpose:
 
-- The repository aims to provide resources and tools for studying permutation groups and performing.
-  retrospective analyses of symmetry groups.
+- The repository aims to provide resources and tools for studying permutation groups and performing retrospective analyses.
 
 ### Data Interpretation:
 
@@ -84,7 +83,9 @@ Contributions and improvements to the data processing methods are welcome throug
 
 - Review the scripts to understand its functionality and customize it as needed for specific analyses or extensions.
 
+
 ---
+
 
 Created by KWThunderRaft  
 Initial Release: July 12, 2024  
