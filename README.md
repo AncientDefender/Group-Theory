@@ -86,6 +86,6 @@ Contributions and improvements to the data processing methods are welcome throug
 
 ---
 
-Created by KWThunderRaft  
+Created by KWThunderRaft
 Initial Release: July 12, 2024
 Last Upated: August 2, 2024
