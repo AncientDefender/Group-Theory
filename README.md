@@ -15,8 +15,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 ### permutation_group_deg_*.txt:
 
 - These files contain data pertaining to permutation groups of different degrees.
-- Each file contains group elements represented as matrices, illustrating the specific transformations
-  and symmetries within the respective permutation groups.
+- Each file contains group elements represented as matrices, illustrating the transformations and symmetries within permutation groups.
 
 ### symmetric_groups-retrospective.py:
 
@@ -30,7 +29,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### combine_colors.py:
 - This custom Python module enhances the management and efficiency of combining ANSI color codes for terminal text formatting.
-- It enables dynamic creation of diverse color combinations, improving the visual aesthetics of your terminal output.
+- It enables the dynamic creation of diverse color combinations, improving the visual aesthetics of your terminal output.
 
 ## Usage:
 
@@ -61,7 +60,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 ### combine_colors
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
-- **Timeout**:  Uses multithreading with a timeout to ensure prompt responds and minimize cases when input is delayed.
+- **Timeout**:  Uses multithreading with a timeout to ensure prompt responses and minimize cases when input is delayed.
 
 ## Contributing
 
@@ -81,12 +80,10 @@ Contributions and improvements to the data processing methods are welcome throug
 
 ### Script Functionality:
 
-- Review the scripts to understand its functionality and customize it as needed for specific analyses or extensions.
-
+- Review the scripts to understand their functionality and customize them as needed for specific analyses or extensions.
 
 ---
 
-
 Created by KWThunderRaft  
 Initial Release: July 12, 2024  
-Last Upated: August 2, 2024  
+Last Updated: August 2, 2024  
