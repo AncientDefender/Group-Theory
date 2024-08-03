@@ -25,7 +25,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### symmetric_groups-ghost_legs.py:
 
-- This Python file demeonstrates the Amidakuji technique on the construction of unique arrangements from finite elements.
+- This Python file demonstrates the Amidakuji technique on the construction of unique arrangements from finite elements.
 - The script includes functions and methods for constructing symmetric groups over the set {1,2,...,n}.
 
 ### combine_colors.py:
@@ -54,14 +54,14 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### symmetric_groups-ghost_legs
 
-- **Dynamic Matrix Construction**: Builds and extends a matrix to represent permutations, allowing for detailed exploration of different configurations.
-- **Formatted Output**: Results are displayed with corresponding symmetric group notation and color-coded formatting for improved readability.
-- **Customized Output**: Permutations are displayed in batches of 1000, allowing the user to view additional outputs as desired or exit after each batch.
+- **Dynamic Matrix Construction**: Builds and extends a matrix to represent permutations using the Amidakuji technique.
+- **Formatted Output**: Results are displayed with corresponding symmetric group notation and color-coded formatting.
+- **Customized Output**: Permutations are displayed in batches of 1000 with an option to view additional outputs or exit after each batch.
 
 ### combine_colors
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
-- **Convenient Methods**:  Uses multithreading with a timeout to handle user input, ensuring it responds promptly and gracefully handles cases where user input is delayed.
+- **Timeout**:  Uses multithreading with a timeout to handle user input by promoting prompt responds and  minimizing cases when input is delayed.
 
 ## Contributing
 
