@@ -63,7 +63,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 
 ### `combine_colors.py`
 
-- **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
+- **Dynamic Color Combinations**: Easily combine styles and colors to create custom formatting codes.
 
 ## Contributing
 
