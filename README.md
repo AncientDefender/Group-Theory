@@ -53,6 +53,7 @@ Welcome to the Group Theory repository! This project delves into the various pro
 ### `symmetric_groups-retrospective.py`
 
 - **Dynamic Matrix Generation**: Generates new matrices by inserting elements into every possible position in the rows.
+- **Timeout**:  Uses multithreading with a timeout to ensure prompt responses and minimize cases when input is delayed.
 
 ### `symmetric_groups-ghost_legs.py`
 
@@ -63,7 +64,6 @@ Welcome to the Group Theory repository! This project delves into the various pro
 ### `combine_colors.py`
 
 - **Dynamic Color Combinations**: Easily combine shades and colors to create custom formatting codes.
-- **Timeout**:  Uses multithreading with a timeout to ensure prompt responses and minimize cases when input is delayed.
 
 ## Contributing
 
