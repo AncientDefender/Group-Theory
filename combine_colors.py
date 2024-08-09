@@ -40,7 +40,7 @@ class   Colors_Remix:
         >>>    for combo_name in combinations.keys():
         >>>        globals()[combo_name] = combinations[combo_name]
 
-        For an example on implementing steps (2) to (5) in your scripts, see lines 141 to 154 of this module. It
+        For an example on implementing steps (2) to (5) in your scripts, see lines 144 to 161 of this module. It
         will demonstrate how you can integrate this 'Colors_Remix' class to generate simplified formatted output.
         """
 
